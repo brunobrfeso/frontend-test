@@ -23,7 +23,7 @@ class HomeScreen extends Component {
     })
 
 
-    fetch('http://localhost:3001/produtos'
+    fetch('https://frontend-test-backend.herokuapp.com/produtos'
     , {
       method: 'POST',
       headers: {

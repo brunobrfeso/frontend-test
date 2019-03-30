@@ -4,7 +4,7 @@ import '../App.css';
 class InsertProduto extends Component {
 
   cadastraData = () => {
-    fetch('http://localhost:3001/insert-produto'
+    fetch('https://frontend-test-backend.herokuapp.com/insert-produto'
     ,{
         method: 'POST',
         headers: {

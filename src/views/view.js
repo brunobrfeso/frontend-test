@@ -17,9 +17,9 @@ class View extends Component {
 
     document.getElementById('Loading').innerHTML = 'Loading...';
 
-    var ref = window.location.href.replace('http://localhost:3000/', '');
+    var ref = window.location.href.replace('https://brunobrfeso.github.io/frontend-test/', '');
 
-    fetch('http://localhost:3001/produto'
+    fetch('https://frontend-test-backend.herokuapp.com/produto'
     ,{
       method: 'POST',
       headers:{

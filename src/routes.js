@@ -15,7 +15,7 @@ class Routes extends Component {
 
     componentDidMount() {
 
-        fetch('http://localhost:3001/produtos')
+        fetch('https://frontend-test-backend.herokuapp.com/produtos')
           .then(Response => Response.json())
           .then((result) => {
               console.log(result)
